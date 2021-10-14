@@ -1,0 +1,62 @@
+body,
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 0% 10% 0% 10%;
+}
+
+.offer ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+}
+
+.styling {
+  font-size: 1.2rem;
+}
+
+.offer ul li div img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.offer-heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.offer-description {
+  color: #808080;
+  text-transform: capitalize;
+}
+
+.offer ul li div p {
+  color: #808080;
+}
+
+button {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.2s;
+  background-color: red;
+  transform: scale(1.1);
+}
